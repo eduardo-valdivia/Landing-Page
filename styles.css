@@ -78,3 +78,33 @@ body {
     background: #E5E7EB;
     align-items: center;
 }
+
+.info-container {
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 125px;
+    padding-right: 125px;
+    padding-bottom: 75px;
+    gap: 200px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 32px;
+}
+
+
+.info-item-list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info-image {
+    width: 150px;
+    height: 150px;
+    border: 5px solid blue;
+    border-radius: 25px;
+}
