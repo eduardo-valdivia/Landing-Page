@@ -131,5 +131,50 @@ body {
     font-size: 24px;
     font-weight: 900;
     text-align: right;
-
 }
+
+.modal-container {
+    display: flex;
+    justify-content: center;
+    background-color:  white;
+    padding-top: 125px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 125px;
+    gap: 25px;
+}
+
+.modal-info  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: royalblue;
+    width: 1200px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    padding: 16px;
+    gap: 16px;
+}
+
+.modal-item-header {
+    font-size: 24px;
+    font-weight: 900;
+    color:#E5E7EB;
+}
+
+.modal-item-text {
+    font-size: 18px;
+    color:#F9FAF8;
+}
+
+.modal-button {
+    padding: 10px 25px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid white;
+    color: white;
+}
+
+
+
